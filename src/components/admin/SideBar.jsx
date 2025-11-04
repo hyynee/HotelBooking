@@ -1,3 +1,4 @@
+import { User2Icon } from 'lucide-react';
 import React, { useState } from 'react';
 import {
     HiHome,
@@ -16,6 +17,7 @@ const SideBar = () => {
         { name: 'Add Room', path: '/owner/add-room', icon: <HiPlusCircle className="text-xl" /> },
         { name: 'List Room', path: '/owner/list-room', icon: <HiViewList className="text-xl" /> },
         { name: 'Orders', path: '/owner/order', icon: <HiViewList className="text-xl" /> },
+        { name: 'User Management', path: '/owner/user', icon: <User2Icon className="text-xl" /> },
     ];
 
     return (

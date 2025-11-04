@@ -26,7 +26,7 @@ const RadioButton = ({ label, selected, onChange = () => { } }) => (
             type='radio'
             name='sortOptions'
             checked={selected}
-            onChange={(e) => onChange(label)}
+            onChange={() => onChange(label)}
             className='form-checkbox h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500'
         />
         <span className='text-gray-700'>{label}</span>
